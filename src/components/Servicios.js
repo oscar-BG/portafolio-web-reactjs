@@ -42,6 +42,40 @@ export const Servicios = () => {
                     </div>
                 </div>
             </section>
+
+            {/** AECCION DE HABILIDADES */}
+            <div className="contenedor-skills" id="skills">
+                <h3>HABILIDADES</h3>
+
+                <div className="skill">
+                    <div className="info">
+                        <p> <span className="lista"></span> Html & Css</p>
+                    </div>
+                    <div className="barra">
+                        <div id="html"></div>
+                    </div>
+                </div>
+
+                <div className="skill">
+                    <div className="info">
+                        <p> <span className="lista"></span> JavaScript </p>
+                    </div>
+                    <div className="barra">
+                        <div id="js"></div>
+                    </div>
+                </div>
+
+                <div className="skill">
+                    <div className="info">
+                        <p> <span className="lista"></span> React Js </p>
+                    </div>
+                    <div className="barra">
+                        <div id="react"></div>
+                    </div>
+                </div>
+
+
+            </div>
         </>
     )
 }

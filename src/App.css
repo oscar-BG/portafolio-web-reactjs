@@ -241,3 +241,8 @@ header .contenido-header .redes a:hover {
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
+#servicios .fila .servicio p{
+    font-size: 14px;
+    line-height: 22px;
+}
