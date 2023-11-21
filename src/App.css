@@ -246,3 +246,32 @@ header .contenido-header .redes a:hover {
     font-size: 14px;
     line-height: 22px;
 }
+
+.contenedor-skills{
+    background: linear-gradient(#eb5a5acc, rgba(33,16,16, .8)), url();
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+
+}
+
+.contenedor-skills .skill {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.contenedor-skills .skill .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-skills .skill .lista {
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+}
