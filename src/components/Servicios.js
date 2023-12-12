@@ -45,36 +45,64 @@ export const Servicios = () => {
 
             {/** AECCION DE HABILIDADES */}
             <div className="contenedor-skills" id="skills">
-                <h3>HABILIDADES</h3>
+                <h3 className="titulo-seccion">HABILIDADES</h3>
 
-                <div className="skill">
-                    <div className="info">
-                        <p> <span className="lista"></span> Html & Css</p>
+                <div className="flexbox-container">
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> Html & Css</p>
+                        </div>
                     </div>
-                    <div className="barra">
-                        <div id="html"></div>
+
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> Bootstrap </p>
+                        </div>
                     </div>
+
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> JavaScript </p>
+                        </div>
+                    </div>
+
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> JQuery </p>
+                        </div>
+                    </div>
+
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> Git </p>
+                        </div>
+                    </div>
+
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> React Js </p>
+                        </div>
+                    </div>
+
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> Php </p>
+                        </div>
+                    </div>
+
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> Docker </p>
+                        </div>
+                    </div>
+
+                    <div className="box skill">
+                        <div className="info">
+                            <p> <span className="lista"></span> PostgreSQL </p>
+                        </div>
+                    </div>
+
                 </div>
-
-                <div className="skill">
-                    <div className="info">
-                        <p> <span className="lista"></span> JavaScript </p>
-                    </div>
-                    <div className="barra">
-                        <div id="js"></div>
-                    </div>
-                </div>
-
-                <div className="skill">
-                    <div className="info">
-                        <p> <span className="lista"></span> React Js </p>
-                    </div>
-                    <div className="barra">
-                        <div id="react"></div>
-                    </div>
-                </div>
-
-
             </div>
         </>
     )
