@@ -58,6 +58,10 @@ header .contenido-header .redes a:hover {
     color: #ff5080;
 }
 
+header .contenido-header .seleccionado {
+    color: #ff5080;
+}
+
 #inicio .contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
@@ -306,4 +310,151 @@ header .contenido-header .redes a:hover {
 
 .info {
     margin-bottom: 10px;
+}
+
+/* SECCIÓN PORTAFOLIO */
+#portafolio {
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#portafolio .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#portafolio .fila {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#portafolio .fila .proyecto {
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#portafolio .fila .proyecto img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+
+#portafolio .fila .proyecto:hover img {
+    filter: grayscale(0);
+}
+
+#portafolio .fila .proyecto .info {
+    position: absolute;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    color: #ff5080;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -60px;
+    transition: .5s;
+}
+
+#portafolio .fila .proyecto:hover .info {
+    opacity: 1;
+    bottom: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}
+
+/* SECCIÓN RESPONSIVE */
+@media screen and (max-width:800px) {
+    .redes {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    nav.responsive {
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }
+    nav.responsive ul li {
+        margin: 5px 0;
+    }
+    #icono-nav {
+        display: block;
+    }
+    #inicio .contenido .presentacion h2 {
+        font-size: 40px;
+    }
+    #sobremi{
+        padding: 50px 0;
+        display: block;
+    }
+    #sobremi .contenedor-foto {
+        max-width: 200px;
+        margin: auto;
+    }
+    #sobremi .contenedor-foto img {
+        padding: 8px;
+    }
+    #sobremi .sobremi .titulo-seccion {
+        text-align: center;
+    }
+    #sobremi .sobremi h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    #servicios {
+        padding: 50px 15px;
+    }
+    #servicios .fila {
+        display: block;
+    }
+    #servicios .fila .servicio {
+        margin: 10px auto;
+    }
+    .contenedor-skills {
+        padding: 50px 20px;
+    }
+    #portafolio {
+        padding: 50px 0;
+    }
+    #portafolio .fila {
+        display: block;
+    }
+    #portafolio .fila .proyecto {
+        margin: 10px auto;
+    }
 }

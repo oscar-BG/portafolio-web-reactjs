@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
-import { HeaderNav } from '../components/layout/HeaderNav';
 import { Presentacion } from '../components/Presentacion';
 import { Portafolio } from '../components/Portafolio';
 import { SobreMi } from '../components/SobreMi';

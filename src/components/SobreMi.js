@@ -1,6 +1,7 @@
 import React from 'react';
 import ImagenPerfil from '../static/img/perfil2.png'
 import { HeaderNav } from './layout/HeaderNav';
+import { Footer } from './layout/Footer';
 
 export const SobreMi = () => {
     return (
@@ -24,6 +25,8 @@ export const SobreMi = () => {
                     <a href="#">Descargar CV</a>
                 </div>
             </section>
+
+            <Footer></Footer>
         </>
     )
 }

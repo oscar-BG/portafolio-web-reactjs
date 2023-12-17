@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaCode } from "react-icons/fa";
 import { HeaderNav } from './layout/HeaderNav';
+import { Footer } from './layout/Footer';
 
 export const Servicios = () => {
     return (
@@ -12,7 +13,7 @@ export const Servicios = () => {
                 <h3 className="titulo-seccion">MIS SERVICIOS</h3>
                 <div className="fila">
                     <div className="servicio">
-                        <spna className="icono"> <FaCode /> </spna>
+                        <span className="icono"> <FaCode /> </span>
 
                         <h4>Diseño de Sitios Web</h4>
                         <hr></hr>
@@ -27,7 +28,7 @@ export const Servicios = () => {
                         </p>
                     </div>
                     <div className="servicio">
-                        <spna className="icono"> <FaCode /> </spna>
+                        <span className="icono"> <FaCode /> </span>
 
                         <h4>BackEnd</h4>
                         <hr></hr>
@@ -104,6 +105,8 @@ export const Servicios = () => {
 
                 </div>
             </div>
+
+            <Footer></Footer>
         </>
     )
 }
