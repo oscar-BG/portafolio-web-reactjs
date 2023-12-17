@@ -413,13 +413,14 @@ footer a {
         margin: 5px 0;
     }
     #icono-nav {
+        color: #fff;
         display: block;
     }
     #inicio .contenido .presentacion h2 {
         font-size: 40px;
     }
     #sobremi{
-        padding: 50px 0;
+        padding: 60px 0;
         display: block;
     }
     #sobremi .contenedor-foto {
@@ -437,7 +438,7 @@ footer a {
         text-align: center;
     }
     #servicios {
-        padding: 50px 15px;
+        padding: 60px 15px;
     }
     #servicios .fila {
         display: block;
@@ -449,7 +450,7 @@ footer a {
         padding: 50px 20px;
     }
     #portafolio {
-        padding: 50px 0;
+        padding: 60px 0;
     }
     #portafolio .fila {
         display: block;
